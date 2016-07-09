@@ -1,0 +1,8 @@
+name: MGPL
+main: com.github.xzzpig.mgpl.Main
+version: V0.1
+author: xzzpig
+commands:
+  mgpl: 
+    description: MGPL主命令
+    usage: /mgpl help -查看帮助

@@ -56,7 +56,6 @@ public class GameListener implements Listener {
 
 	@EventHandler
 	public void onPlayerMove(PlayerMoveEvent event) {
-		System.out.println("here");
 		Player player = event.getPlayer();
 		if (!Vars.clients.containsKey(player)) {
 			player.kickPlayer("未连接启动器");
